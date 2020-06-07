@@ -10,5 +10,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //int numero = 10;
+        Casa minhaCasa = new Casa();
+        minhaCasa.cor = "Azul";
+
+        System.out.println( minhaCasa.cor);
+        minhaCasa.abrirPorta();
     }
 }
