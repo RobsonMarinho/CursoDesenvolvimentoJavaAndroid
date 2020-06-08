@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.cursodesenvolvimentojavaandroid.classes.Conta;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,11 +13,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Passaro passaro = new Passaro();
+
+        /*
+        Conta conta = new Conta();
+        conta.depositar(100); //200
+        conta.sacar(50);//150
+        System.out.println( conta.recuperarSaldo());
+        */
+
+
+       /* Passaro passaro = new Passaro();
         passaro.correr();
 
        Cao cao = new Cao();
-       cao.correr();
+       cao.correr();*/
        // cao.setCor("Azul");
        // System.out.println( cao.getCor() );
         /*
