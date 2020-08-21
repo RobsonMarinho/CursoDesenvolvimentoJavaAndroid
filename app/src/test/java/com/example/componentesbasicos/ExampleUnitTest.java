@@ -1,4 +1,4 @@
-package com.example.cursodesenvolvimentojavaandroid;
+package com.example.componentesbasicos;
 
 import org.junit.Test;
 

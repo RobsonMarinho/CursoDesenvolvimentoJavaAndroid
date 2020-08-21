@@ -1,4 +1,4 @@
-package com.example.cursodesenvolvimentojavaandroid;
+package com.example.componentesbasicos;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.cursodesenvolvimentojavaandroid", appContext.getPackageName());
+        assertEquals("com.example.componentesbasicos", appContext.getPackageName());
     }
 }
