@@ -34,6 +34,13 @@
         android:onClick="enviar"
         android:text="Enviar" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpar"
+        android:text="Limpar" />
+
     <TextView
         android:id="@+id/textResultado"
         android:layout_width="match_parent"
